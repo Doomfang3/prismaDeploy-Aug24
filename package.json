@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "prisma:migrate": "npx prisma migrate dev --name add-publisher"
   },
   "dependencies": {
     "@prisma/client": "^5.15.1",

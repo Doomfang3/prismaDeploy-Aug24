@@ -15,6 +15,7 @@ datasource db {
 
 model Book {
   id        String   @id @default(cuid())
+  locale    String
   title     String
   year      Int
   summary   String?
